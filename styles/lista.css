@@ -1,0 +1,22 @@
+
+.Box_Lista {
+    border-color: black;
+    border-style: solid;
+    height: 310px;
+    margin: 16px;
+    width: 400px;
+}
+
+.tabla {
+    background-color: #354f52;
+    border-radius: 8px;
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 368px;
+}
+
+thead {
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+}

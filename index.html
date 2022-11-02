@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de elementos</title>
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/registro.css">
+    <link rel="stylesheet" href="./styles/lista.css">
+    <link rel="stylesheet" href="./styles/actualizar.css">
+</head>
+
+<body>
+    <section class="Contenido">
+        <form class="form_registro" data-form-registro>
+            <div class="Box_Registro">
+                <div class="Box_Registro-forms">
+                    <div class="form-campo1 form">
+                        <label for="campo1" class="form_etiqs">CAMPO 1:</label>
+                        <input type="text" id="campo1" class="form-input" data-input1>
+                        <span></span>
+                    </div>
+                    <div class="form-campo2 form">
+                        <label for="campo2" class="form_etiqs">CAMPO 2:</label>
+                        <input type="text" id="campo2" class="form-input" data-input2>
+                        <span></span>
+                    </div>
+                    <div class="form-campo3 form">
+                        <label for="campo3" class="form_etiqs">CAMPO 3:</label>
+                        <input type="text" id="campo3" class="form-input" data-input3>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="Box_Registro-button">
+                    <button class="button-registrar">Registrar</button>
+                </div>
+            </div>
+        </form>
+        <div class="Box_Lista">
+            <table class="tabla">
+                <thead>
+                    <th>campo 1</th>
+                    <th>campo 2</th>
+                    <th>campo 3</th>
+                </thead>
+                <tbody data-tabla>
+                   
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <form class="Contenido" data-form-act>
+        <div class="Box_Registro">
+            <div class="Box_Registro-forms">
+                <div class="form-campo1 form">
+                    <label for="campo1" class="form_etiqs">CAMPO 1:</label>
+                    <input type="text" id="campo1" class="form-input" data-up1>
+                    <span></span>
+                </div>
+                <div class="form-campo2 form">
+                    <label for="campo2" class="form_etiqs">CAMPO 2:</label>
+                    <input type="text" id="campo2" class="form-input" data-up2>
+                    <span></span>
+                </div>
+                <div class="form-campo3 form">
+                    <label for="campo3" class="form_etiqs">CAMPO 3:</label>
+                    <input type="text" id="campo3" class="form-input" data-up3>
+                    <span></span>
+                </div>
+            </div>
+            <div class="Box_Registro-button">
+                <button class="button-registrar" data-act>Actualizar</button>
+            </div>
+    </form>
+    <script type="module" src="./js/registrar.js" ></script>
+</body>
+
+</html>
