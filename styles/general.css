@@ -5,10 +5,18 @@ background-color: #52796f ;
 .Contenido{
     display: flex;
     justify-content: center;
-    margin-top: 88px;
+    margin-top: 25px;
     
 }
 
 .oculto{
     display: none;
+}
+
+
+.footer-info {
+    background-color: #CAD2C5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
