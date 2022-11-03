@@ -8,3 +8,7 @@ background-color: #52796f ;
     margin-top: 88px;
     
 }
+
+.oculto{
+    display: none;
+}

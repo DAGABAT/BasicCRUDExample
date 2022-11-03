@@ -1,30 +1,32 @@
-
-.Box_Registro{
+.Box_Registro {
     border-color: black;
     border-width: 3px;
+    border-radius: 20px;
     border-style: solid;
     height: 310px;
-    margin:16px;
+    margin: 16px;
     width: 400px;
 }
 
-.Box_Registro-forms{
+.Box_Registro-forms {
     background-color: #cad2c5;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     gap: 29px;
     height: 225px;
     margin: 16px;
-    width: 370px; 
+    width: 370px;
 }
 
 .form {
+    border-radius: 10px;
     align-self: center;
     height: 45px;
-    width: 335px ;
+    width: 335px;
 }
 
- .form_etiqs {
+.form_etiqs {
     height: 20px;
     margin-right: 10px;
     width: 75px;
@@ -36,12 +38,14 @@
     width: 230px;
 }
 
-.Box_Registro-button{
+.Box_Registro-button {
+    border-radius: 15px;
     display: flex;
     justify-content: flex-end;
 }
 
-.button-registrar{
+.button-registrar {
+    border-radius: 5px;
     height: 40px;
     margin-right: 16px;
     width: 80px;

@@ -48,6 +48,8 @@ function mostrarEnWeb (c1,c2,c3,id){
         const d2 = document.querySelector('[data-up2]');
         const d3 = document.querySelector('[data-up3]');
         const marc = document.querySelector('[data-act]');
+        const cuadroEdicion = document.querySelector('[data-form-act]');
+        cuadroEdicion.classList.toggle('oculto');
 
         d1.value = c1;
         d2.value = c2;

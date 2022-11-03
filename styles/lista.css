@@ -1,6 +1,7 @@
 
 .Box_Lista {
     border-color: black;
+    border-radius: 20px;
     border-style: solid;
     height: 310px;
     margin: 16px;
